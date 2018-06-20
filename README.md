@@ -1,4 +1,4 @@
-[![badge-jdk](https://img.shields.io/badge/jdk-7-green.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+[![badge-jdk](https://img.shields.io/badge/jdk-8-green.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 [![License badge](https://img.shields.io/badge/license-Apache2-green.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](Follow On Twitter)](https://twitter.com/se2automate)
 
