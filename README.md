@@ -26,8 +26,8 @@ Once we have included this dependency, you can let VoiceAutomationClient to mana
 ```java
 public class VoiceTest {
     public static void main(String[] args){
-
-
+        textToSpeechTest();
+        playInternetVoiceFile();
     }
 
     public static void textToSpeechTest(){
