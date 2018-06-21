@@ -7,6 +7,39 @@ Client for sending request to VoiceServer for playing files
 
 VoiceAutomationClient is open source, released under the terms of [Apache 2.0 License]. It is used along with VoiceAutomationServer
 
+##Pre-requisite
+
+You have to use this library along with VoiceAutomationServer Standalone jar. 
+Download the Standalone jar from [VoiceAutomationServer-Jar](https://github.com/g-tiwari/VoiceAutomationServer/blob/master/VoiceAutomationServer-1.0.0.jar)
+Then start the server from terminal by typing 
+```bash
+java -jar VoiceAutomationServer-1.0.0.jar
+```
+
+After this you will see something similar to below - 
+
+```bash
+INFO [main] (VoiceAutomationServer.java:100) - Initializing Voice Automation Server
+Jun 20, 2018 8:11:38 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.se2automate.voice.ServerResources
+Jun 20, 2018 8:11:38 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.se2automate.voice.ServerResources.impl.VoiceAutomationServerAPI
+Jun 20, 2018 8:11:38 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Provider classes found:
+  class com.se2automate.voice.ServerResources.impl.JSONParseExceptionMapper
+Jun 20, 2018 8:11:38 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.17 01/17/2013 03:31 PM'
+Jun 20, 2018 8:11:39 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [10.48.129.41:9090]
+Jun 20, 2018 8:11:39 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+ INFO [main] (VoiceAutomationServer.java:109) - Voice Automation Server started at http://10.48.129.41:9090/
+
+```
+
+
 ## Usage
 
 In order to use VoiceAutomationClient in a Maven project, you need to add the following dependency in your `pom.xml` (Java 8 or upper required):
