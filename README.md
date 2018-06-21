@@ -1,13 +1,14 @@
 [![badge-jdk](https://img.shields.io/badge/jdk-8-green.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 [![License badge](https://img.shields.io/badge/license-Apache2-green.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Twitter](Follow On Twitter)](https://twitter.com/se2automate)
+[Follow on Twitter](https://twitter.com/se2automate)
+[Blog Wordpress](https://selenium2automate.wordpress.com/)
 
 # VoiceAutomationClient
 Client for sending request to VoiceServer for playing files
 
 VoiceAutomationClient is open source, released under the terms of [Apache 2.0 License]. It is used along with VoiceAutomationServer
 
-##Pre-requisite
+## Pre-requisite
 
 You have to use this library along with VoiceAutomationServer Standalone jar. 
 Download the Standalone jar from [VoiceAutomationServer-Jar](https://github.com/g-tiwari/VoiceAutomationServer/blob/master/VoiceAutomationServer-1.0.0.jar)
